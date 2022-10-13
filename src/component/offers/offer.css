@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main_ofr
+{
+    display: grid;
+    grid-template-rows: 10vh 10vh auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ofr_list_div
+{
+    display: grid;
+    grid-template-rows: 30vh 10vh 14vh 8vh;
+    max-width: 30vh;
+    overflow: hidden;
+    margin: 0px 37px;
+    align-items: center;
+}
+.ofr_logic
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+}
+.ofr_img
+{
+    max-width: 28vw;
+    max-height: 30vh;
+    overflow: hidden;
+}
+.ofr_img img
+{
+    width: 20vw;
+    min-height: 30vh;
+}
+.ofr_cond
+{
+    text-align: left;
+}
+.ofr_cond ul li
+{
+    font-size: 14px;
+}
+.ofr_book button
+{
+    font-size: 3vh;
+    width: 100%;
+    border: 1px solid brown;
+    cursor: pointer;
+}
+
+@media (max-width:400px)
+{
+    .ofr_logic
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .ofr_list_div
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .ofr_img img
+    {
+        width: 50vw;
+        min-height: 30vh;
+    }
+    .ofr_img
+    {
+        max-width: 50vw;
+    }
+}
+
+@media (min-width:400px) and (max-width:550px)
+{
+    .ofr_logic
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .ofr_list_div
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .ofr_img img
+    {
+        width: 50vw;
+        min-height: 30vh;
+    }
+    .ofr_img
+    {
+        max-width: 50vw;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .ofr_logic
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .ofr_list_div
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+    .ofr_img img
+    {
+        width: 50vw;
+        min-height: 30vh;
+    }
+    .ofr_img
+    {
+        max-width: 50vw;
+    }
+    .ofr_book button
+    {
+        font-size: 2vh;
+    }
+}

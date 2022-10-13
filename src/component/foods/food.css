@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.food_main
+{
+    display: grid;
+    grid-template-columns: 25vw 25vw 40vw;
+    margin: 50px 0px 50px 60px;
+    justify-content: end;
+    text-align: inherit;
+}
+.food_img1
+{
+    display: grid;
+    grid-template-rows: 55vh 15vh;
+    min-height: 70vh;
+    margin: 0px 10px;
+}
+.img_f1
+{
+    background-image: url('https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9442.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.img_f2
+{
+    background-image: url('https://www.rewardsnetwork.com/wp-content/uploads/2016/12/IndianFood_Main.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.food_img2
+{
+    display: grid;
+    grid-template-rows: 15vh 55vh;
+    min-height: 70vh;
+    margin: 0px 10px;
+}
+.food_dec p
+{
+    font-size: 14px;
+}
+.food_dec h1
+{
+    font-size: 40px;
+}
+
+@media (max-width:400px)
+{
+    .food_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .food_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}
+
+@media (min-width:400px) and (max-width:550px)
+{
+    .food_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .food_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .food_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .food_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}

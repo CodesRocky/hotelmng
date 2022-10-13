@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.abt_main
+{
+    display: grid;
+    grid-template-columns: 25vw 25vw 40vw;
+    margin: 50px 0px 50px 60px;
+    justify-content: end;
+    text-align: inherit;
+}
+.abt_img1
+{
+    display: grid;
+    grid-template-rows: 55vh 15vh;
+    min-height: 70vh;
+    margin: 0px 10px;
+}
+.img1
+{
+    background-image: url('https://media.architecturaldigest.com/photos/597f85ca298aae66974b2b19/3:4/w_1686,h_2248,c_limit/Luxury%20Hotels%20With%20Sweeping%20Views%20of%20Iconic%20Architecture%204.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.img2
+{
+    background-image: url('https://cache.marriott.com/content/dam/marriott-renditions/BOMXR/bomxr-exterior-1522-hor-pano.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=2280px:*');
+    background-size: cover;
+    background-position: center center;
+}
+.abt_img2
+{
+    display: grid;
+    grid-template-rows: 15vh 55vh;
+    min-height: 70vh;
+    margin: 0px 10px;
+}
+.abt_dec p
+{
+    font-size: 14px;
+}
+.abt_dec h1
+{
+    font-size: 40px;
+}
+
+@media (max-width:400px)
+{
+    .abt_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .abt_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}
+@media (min-width:400px) and (max-width:550px)
+{
+    .abt_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .abt_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .abt_main
+    {
+    display: grid;
+    grid-template-columns: 47vw 47vw;
+    justify-content: end;
+    text-align: inherit;
+    margin: 50px 0px 0px 0px;
+    }
+    .abt_dec
+    {
+        display: grid;
+        grid-template-columns: 80vw;
+    }
+}
+

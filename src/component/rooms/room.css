@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main_rm
+{
+    display: grid;
+    text-align: center;
+}
+.main_p
+{
+    margin: 20px;
+}
+.main_h1
+{
+    margin: 30px;
+}
+.rm
+{
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+}
+.rm1
+{
+    display: grid;
+    grid-template-rows: 49vh 49vh;
+}
+.rm2
+{
+    display: grid;
+    grid-template-rows: 49vh 49vh;
+}
+.rm1_1
+{
+    background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjByb29tfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    margin: 3px;
+}
+.rm1_2
+{
+    background-image: url('https://thumbs.dreamstime.com/b/hotel-room-beautiful-orange-sofa-included-43642330.jpg');
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    margin: 3px;
+}
+.rm2_1
+{
+    background-image: url('https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg');
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    margin: 3px;
+}
+.rm2_2
+{
+    background-image: url('https://www.seleqtionshotels.com/content/dam/seleqtions/Connaugth/TCPD_PremiumBedroom4_1235.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg');
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+    margin: 3px;
+}
+.mng
+{
+    margin: 38vh 25vw 0vh 0vw;
+    
+}
+.mng p
+{
+    color: antiquewhite;
+}
+.mng h2
+{
+    color: antiquewhite;
+}
+
+@media (max-width:400px)
+{
+    .main_rm
+    {
+        margin: 40px 0px 0px 0px;
+    }
+    .main_p{
+        margin: 10px;
+    }
+    .main_h1{
+        margin: 15px;
+    }
+    .rm
+    {
+        display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (min-width:400px) and (max-width:550px)
+{
+    .main_rm
+    {
+        margin: 40px 0px 0px 0px;
+    }
+    .main_p{
+        margin: 10px;
+    }
+    .main_h1{
+        margin: 15px;
+    }
+    .rm
+    {
+        display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .main_rm
+    {
+        margin: 40px 0px 0px 0px;
+    }
+    .main_p{
+        margin: 10px;
+    }
+    .main_h1{
+        margin: 15px;
+    }
+    .rm
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .mng{
+        margin: 38vh 50vw 0vh 0vw;
+    }
+}

@@ -1,0 +1,77 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_view
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2020/11/GRACE-SANTORINI-GREECE.jpg?fit=970%2C546&ssl=1');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+.upper_div
+{
+    width: 100%;
+    background: transparent;
+    margin: 0px 0px 250px 0px;
+}
+.upper_div p
+{
+    color: #645454;
+    font-size: 3vh;
+}
+.upper_div h1
+{
+    color: #645454;
+    font-size: 8vh;
+}
+
+@media (max-width:400px)
+{
+    .main_view
+    {
+        min-height: 40vh;
+    }
+    .upper_div h1
+    {
+        font-size: 3vh;
+    }
+    .upper_div p
+    {
+        font-size: 2vh;
+    }
+}
+
+@media (min-width:400px) and (max-width:550px)
+{
+    .main_view
+    {
+        min-height: 40vh;
+    }
+    .upper_div h1
+    {
+        font-size: 3vh;
+    }
+    .upper_div p
+    {
+        font-size: 2vh;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .main_view
+    {
+        min-height: 40vh;
+    }
+    .upper_div h1
+    {
+        font-size: 4vh;
+    }
+}

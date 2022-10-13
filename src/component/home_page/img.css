@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top_img
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top_img img
+{
+    width: 100vw;
+    max-height: 100vh;
+}
+.scond
+{
+    position: absolute;
+    width: 100%;
+    background: aliceblue;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    background: transparent;
+}
+.btn1
+{
+    max-height: 10vh;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    margin: 15px 40px;
+
+}
+.btn2
+{
+    max-height: 10vh;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    text-align: right;
+    margin: 15px 50px;
+}
