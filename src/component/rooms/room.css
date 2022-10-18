@@ -10,10 +10,12 @@
 .main_p
 {
     margin: 20px;
+    color: white;
 }
 .main_h1
 {
     margin: 30px;
+    color: white;
 }
 .rm
 {
@@ -69,11 +71,11 @@
 }
 .mng p
 {
-    color: antiquewhite;
+    color: #fd54b2;
 }
 .mng h2
 {
-    color: antiquewhite;
+    color: #fd54b2;
 }
 
 @media (max-width:400px)

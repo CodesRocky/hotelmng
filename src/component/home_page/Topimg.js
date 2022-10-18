@@ -10,9 +10,6 @@ import img3 from './N2pic.jpeg'
 
 const Topimg = () => {
     const[pic,setPic]=useState(img1)
-
-    
-
     const mngbtn = () =>
     {
         if(pic===img1)

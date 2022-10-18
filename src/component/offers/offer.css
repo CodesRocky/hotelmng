@@ -2,6 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
+.ofr_topic p
+{
+    color: white;
+}
+.ofr_heading
+{
+    color: white;
+}
 .main_ofr
 {
     display: grid;
@@ -18,6 +26,10 @@
     overflow: hidden;
     margin: 0px 37px;
     align-items: center;
+}
+.ofr_title h3
+{
+    color: white;
 }
 .ofr_logic
 {
@@ -44,6 +56,7 @@
 .ofr_cond ul li
 {
     font-size: 14px;
+    color: white;
 }
 .ofr_book button
 {

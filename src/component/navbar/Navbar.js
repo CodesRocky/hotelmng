@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link className='contact' to='/'>Contact</Link>
             </div>
             <div className='htl_name'>
-                <div className='head'> <FaVuejs size={'35px'}/> <h2>VIP</h2> <p>Resort</p></div>
+                <div className='head'> <FaVuejs size={'35px'} color='white'/> <h2>VIP</h2> <p>Resort</p></div>
             </div>
             <div className='right_nav'>
                 <div className='social_icon'>

@@ -4,8 +4,9 @@
 }
 .mainbox{
     display: grid;
-    background: linear-gradient(0.25turn ,#4d90fe, #535e49,#d366b8);
+    background-color: black;
     padding: 10px;
+    border-top: solid white;
 }
 
 .box1{
@@ -54,6 +55,7 @@
 .over p{
     font-size: 15px;
     font-weight: 700;
+    color: #ad8ded;
 }
 .over a{
     text-decoration: none;
@@ -67,6 +69,7 @@
 .supp p{
     font-size: 15px;
     font-weight: 700;
+    color: #ad8ded;
 }
 .supp a{
     text-decoration: none;
@@ -80,6 +83,7 @@
 .resor p{
     font-size: 15px;
     font-weight: 700;
+    color: #ad8ded;
 }
 .resor a{
     text-decoration: none;
@@ -120,6 +124,10 @@
 }
 .copy{
     text-align: center;
+}
+.copy p
+{
+    color: white;
 }
 .top{
     text-align: end;

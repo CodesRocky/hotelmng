@@ -39,10 +39,12 @@
 .food_dec p
 {
     font-size: 14px;
+    color: #ffffff;
 }
 .food_dec h1
 {
     font-size: 40px;
+    color: #ffffff;
 }
 
 @media (max-width:400px)

@@ -39,10 +39,12 @@
 .abt_dec p
 {
     font-size: 14px;
+    color: white;
 }
 .abt_dec h1
 {
     font-size: 40px;
+    color: white;
 }
 
 @media (max-width:400px)

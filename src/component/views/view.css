@@ -25,11 +25,13 @@
 {
     color: #645454;
     font-size: 3vh;
+    color: #121518;
 }
 .upper_div h1
 {
     color: #645454;
     font-size: 8vh;
+    color: #121518;
 }
 
 @media (max-width:400px)
