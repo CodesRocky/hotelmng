@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link to='/about'>About</Link>
                 <Link className='blog' to='/'>Blog</Link>
                 <Link className='page' to='/'>Pages</Link>
-                <Link className='contact' to='/'>Contact</Link>
+                <Link className='contact' to='/location'>Location</Link>
             </div>
             <div className='htl_name'>
                 <div className='head'> <FaVuejs size={'35px'} color='white'/> <h2>VIP</h2> <p>Resort</p></div>

@@ -12,16 +12,16 @@ function Footer() {
                 </h1>
                 <div className='socialicon'>
                     <a href="/" className='yt'>
-                       <FaYoutube/>
+                       <FaYoutube size={'30px'}/>
                     </a>
                     <a href="/" className="fb">
-                    <FaFacebookF/>
+                    <FaFacebookF size={'30px'}/>
                     </a>
                     <a href="/" className="twit">
-                    <FaTwitter/>
+                    <FaTwitter size={'30px'}/>
                     </a>
                     <a href="/" className="insta">
-                    <FaInstagram/>
+                    <FaInstagram size={'30px'}/>
                     </a>
                 </div>
 
@@ -56,13 +56,13 @@ function Footer() {
             <div className='box3'>
                 
                     <a href="/" className="app1">
-                    <FaApple/>
+                    <FaApple size={'30px'}/>
                     </a>
                     <a href="/" className="app2">
-                    <FaBlackberry/>
+                    <FaBlackberry size={'30px'}/>
                     </a>
                     <a href="/" className="app3">
-                    <FaGooglePlay/>
+                    <FaGooglePlay size={'30px'}/>
                     </a>
                 
             </div>

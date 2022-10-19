@@ -6,6 +6,8 @@
 {
     display: grid;
     text-align: center;
+    border-top: solid white;
+    border-bottom: solid white;
 }
 .main_p
 {
