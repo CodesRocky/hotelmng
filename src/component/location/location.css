@@ -4,15 +4,45 @@
 }
 .add_div
 {
-    border-bottom: solid white;
+    display: grid;
+    border-bottom: 1px solid white;
     text-align: center;
-    padding: 50px 0px
+    padding: 50px 0px;
 }
 .add_div h1
 {
     color: white;
+    animation: moveing 15s linear;
 }
 .add_div p
 {
     color: white;
+    animation: moveing 10s linear;
+}
+
+@keyframes moveing {
+    0%
+    {
+        color: black;
+    }
+    20%
+    {
+        color: rgb(14, 13, 13);
+    }
+    40%
+    {
+        color: rgb(63, 63, 63);
+    }
+    60%
+    {
+        color: rgb(167, 166, 166);
+    }
+    80%
+    {
+        color: rgb(255, 255, 255);
+    }
+    100%
+    {
+        color: white;
+    }
 }

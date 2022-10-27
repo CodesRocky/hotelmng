@@ -8,9 +8,9 @@
     display: grid;
     grid-template-columns: 40vw 20vw 38vw;
     position: inherit;
-    background-color: rgb(0, 0, 0);
+    background-color: #2c313a;
     z-index: 1;
-    border-bottom: solid white;
+    border-bottom: 1px solid white;
     
 }
 .icon
@@ -74,7 +74,7 @@
 .social_icon a
 {
     text-decoration: none;
-    margin: 0px 5px;
+    margin: 0px 15px;
 }
 .nav_btn
 {
@@ -89,17 +89,33 @@
     text-decoration: none;
     color: white;
 }
+.book:hover
+{
+    background-color: #6c724b;
+}
 .fb
 {
     color: blue;
+}
+.fb:hover
+{
+    transform: rotateY(3.142rad);
 }
 .tw
 {
     color: rgb(73, 73, 240);
 }
+.tw:hover
+{
+    transform: rotateY(3.142rad);
+}
 .in
 {
     color: rgb(248, 35, 184);
+}
+.in:hover
+{
+    transform: rotateY(3.142rad);
 }
 
 @media (min-width:400px) and (max-width:550px)

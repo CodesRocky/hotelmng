@@ -4,9 +4,9 @@
 }
 .mainbox{
     display: grid;
-    background-color: black;
+    background-color: #2c313a;
     padding: 10px;
-    border-top: solid white;
+    border-top: 1px solid white;
 }
 
 .box1{
@@ -29,6 +29,10 @@
     color: red;
     margin: 2px 7px;
 }
+.yt:hover
+{
+    transform: rotateY(3.142rad);
+}
 .fb{
     color: blue;
     margin: 2px 7px;
@@ -37,9 +41,17 @@
     color: rgb(33, 33, 163);
     margin: 2px 7px;
 }
+.twit:hover
+{
+    transform: rotateY(3.142rad);
+}
 .insta{
     color: #f7500e;
     margin: 2px 7px;
+}
+.insta:hover
+{
+    transform: rotateY(3.142rad);
 }
 .box2{
     display: grid;

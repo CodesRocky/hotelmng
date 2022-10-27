@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <>
       <Topimg />
+      {/* <Imgslider/> */}
       <Location />
       <About />
       <Offers />
