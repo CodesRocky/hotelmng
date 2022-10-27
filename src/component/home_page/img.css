@@ -46,3 +46,34 @@
     text-align: center;
 }
 
+@media (max-width:400px)
+{
+    .img_slide
+    {
+        max-height: 35vh;
+    }
+}
+
+@media (min-width:400px) and (max-width:550px)
+{
+    .img_slide
+    {
+        max-height: 45vh;
+    }
+}
+
+@media (min-width:550px) and (max-width:900px)
+{
+    .img_slide
+    {
+        max-height: 55vh;
+    }
+}
+
+@media (min-width:900px) and (max-width:1100px)
+{
+    .img_slide
+    {
+        max-height: 65vh;
+    }
+}
